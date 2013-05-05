@@ -1,0 +1,155 @@
+/*
+YUI 3.10.0 (build a03ce0e)
+Copyright 2013 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+html {
+  color: #000;
+  background: #FFF; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ''; }
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit; }
+
+input, textarea, select {
+  *font-size: 100%; }
+
+legend {
+  color: #000; }
+
+#yui3-css-stamp.cssreset {
+  display: none; }
+
+html {
+  width: 100%; }
+
+body {
+  width: 100%;
+  background: #161616;
+  font-family: "futura-pt", Arial, sans-serif;
+  font-size: 15px; }
+  body .gray {
+    color: #999999; }
+
+.clear {
+  clear: both; }
+
+.sidebar {
+  width: 178px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #222222;
+  color: white;
+  font-weight: 300; }
+  .sidebar .logo {
+    margin: 15px 0 0 15px; }
+  .sidebar .options {
+    margin: 30px 0 0 15px;
+    font-weight: bold; }
+    .sidebar .options > li {
+      cursor: pointer;
+      margin-top: 5px; }
+      .sidebar .options > li:hover {
+        opacity: 0.7; }
+      .sidebar .options > li.spaced {
+        margin-top: 20px; }
+      .sidebar .options > li .option {
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        margin-right: 3px; }
+        .sidebar .options > li .option.option-on {
+          background: url("/images/option_on.png") no-repeat 0 0; }
+        .sidebar .options > li .option.option-off {
+          background: url("/images/option_off.png") no-repeat 0 0; }
+
+.street {
+  width: 700px;
+  margin: 0 auto;
+  padding-left: 178px;
+  color: white;
+  cursor: default; }
+  .street .street-inner {
+    width: 700px;
+    height: 400px;
+    padding-top: 30px;
+    position: relative;
+    text-align: center; }
+    .street .street-inner .route-terminal {
+      display: inline-block;
+      margin: 0 5px -4px 5px; }
+    .street .street-inner .street-inner-left {
+      width: 323px;
+      height: 2000px;
+      float: left;
+      position: relative; }
+      .street .street-inner .street-inner-left .point > div {
+        float: right; }
+    .street .street-inner .street-inner-divider {
+      width: 3px;
+      height: 2000px;
+      float: left;
+      margin-top: -2px;
+      background: white; }
+    .street .street-inner .street-inner-right {
+      width: 323px;
+      height: 2000px;
+      float: left;
+      position: relative; }
+    .street .street-inner .point {
+      position: absolute;
+      text-align: right; }
+      .street .street-inner .point .point-name {
+        margin-top: 20px;
+        margin-right: 10px; }
+      .street .street-inner .point .point-photo {
+        width: 80px;
+        height: 80px;
+        background: url("/images/point_circle.png") no-repeat 0 0; }
+      .street .street-inner .point .point-connector {
+        width: 40px;
+        height: 3px;
+        margin-top: 37px;
+        background: white; }

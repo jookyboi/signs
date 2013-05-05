@@ -1,0 +1,144 @@
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+
+  background: $almost-black;
+
+  font-family: "futura-pt", Arial, sans-serif;
+  font-size: 15px;
+
+  .gray {
+    color: $gray;
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.sidebar {
+  width: 178px;
+  height: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background: $dark-gray;
+  color: $white;
+  font-weight: 300;
+
+  .logo {
+    margin: 15px 0 0 15px;
+  }
+
+  .options {
+    margin: 30px 0 0 15px;
+    font-weight: bold;
+
+    >li {
+      cursor: pointer;
+      margin-top: 5px;
+
+      &:hover {
+        opacity: 0.7;
+      }
+
+      &.spaced {
+        margin-top: 20px;
+      }
+
+      .option {
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        margin-right: 3px;
+
+        &.option-on {
+          background: url('/images/option_on.png') no-repeat 0 0;
+        }
+
+        &.option-off {
+          background: url('/images/option_off.png') no-repeat 0 0;
+        }
+      }
+    }
+  }
+}
+
+.street {
+  width: 700px;
+  margin: 0 auto;
+  padding-left: 178px;
+  
+  color: $white;
+  cursor: default;
+
+  .street-inner {
+    width: 700px;
+    height: 400px;
+    padding-top: 30px;
+    position: relative;
+
+    text-align: center;
+
+    .route-terminal {
+      display: inline-block;
+      margin: 0 5px -4px 5px;
+    }
+
+    .street-inner-left {
+      width: 323px;
+      height: 2000px;
+      float: left;
+      position: relative;
+
+      .point>div {
+        float: right;
+      }
+    }
+
+    .street-inner-divider {
+      width: 3px;
+      height: 2000px;
+      float: left;
+      margin-top: -2px;
+
+      background: $white;
+    }
+
+    .street-inner-right {
+      width: 323px;
+      height: 2000px;
+      float: left;
+      position: relative;
+    }
+
+    .point {
+      position: absolute;
+      text-align: right;
+
+      .point-name {
+        margin-top: 20px;
+        margin-right: 10px;
+      }
+
+      .point-photo {
+        width: 80px;
+        height: 80px;
+        background: url("/images/point_circle.png") no-repeat 0 0;
+      }
+
+      .point-connector {
+        width: 40px;
+        height: 3px;
+        margin-top: 37px;
+        background: $white;
+      }
+
+    }
+  }
+}
