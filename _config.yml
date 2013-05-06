@@ -1,4 +1,5 @@
 exclude: ['Gemfile', 'Gemfile.lock', 'sass', 'Rakefile']
+auto: false
 
 sass:
   syntax: scss
