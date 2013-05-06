@@ -3,4 +3,9 @@
   -o-mask-image: url($url);
   -moz-mask-image: url($url);
   mask-image: url($url);
+
+  -webkit-mask-repeat: no-repeat;
+  -o-mask-image-repeat: no-repeat;
+  -moz-mask-image-repeat: no-repeat;
+  mask-image-repeat: no-repeat;
 }

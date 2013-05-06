@@ -1,3 +1,5 @@
+exclude: ['Gemfile', 'Gemfile.lock', 'sass', 'Rakefile']
+
 sass:
   syntax: scss
   style: compressed
