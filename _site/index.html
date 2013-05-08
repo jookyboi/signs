@@ -9,6 +9,7 @@
     <script type="text/javascript" src="/javascript/libraries/jquery-2.0.0.min.js"></script>
     <script type="text/javascript" src="/javascript/libraries/jquery.fancybox.min.js"></script>
     <script type="text/javascript" src="/javascript/libraries/handlebars.runtime.js"></script>
+    <script type="text/javascript" src="/javascript/libraries/underscore.min.js"></script>
 
     <script type="text/javascript" src="/javascript/templates.js"></script>
     <script type="text/javascript" src="/javascript/points.js"></script>
@@ -18,47 +19,47 @@
 <section class="sidebar">
     <img src="/images/logo.png" class="logo"/>
     <ul class="options">
-        <li>
+        <li data-type="all">
             <span class="option option-on"></span>
             All Signs
         </li>
-        <li class="spaced">
+        <li class="spaced form" data-type="noeffort">
             <span class="option option-on"></span>
             No Effort
         </li>
-        <li>
+        <li class="form" data-type="corporate">
             <span class="option option-on"></span>
             Corporate
         </li>
-        <li>
+        <li class="form" data-type="graphical">
             <span class="option option-on"></span>
             Graphical
         </li>
-        <li>
+        <li class="form" data-type="bold">
             <span class="option option-on"></span>
             Bold
         </li>
-        <li>
+        <li class="form" data-type="artsy">
             <span class="option option-on"></span>
             Artsy
         </li>
-        <li class="spaced">
+        <li class="spaced function" data-type="food">
             <span class="option option-on"></span>
             Food
         </li>
-        <li>
+        <li class="function" data-type="shopping">
             <span class="option option-on"></span>
             Shopping
         </li>
-        <li>
+        <li class="function" data-type="entertainment">
             <span class="option option-on"></span>
             Entertainment
         </li>
-        <li>
+        <li class="function" data-type="automotive">
             <span class="option option-on"></span>
             Automotive
         </li>
-        <li>
+        <li class="function" data-type="services">
             <span class="option option-on"></span>
             Services
         </li>
@@ -74,6 +75,9 @@
         <div class="street-inner-divider"></div>
         <div class="street-inner-right"></div>
         <div class="clear">&nbsp;</div>
+        <div class="street-end">
+            <span class="gray">Harvard Ave</span> <img src="/images/route_circle.png" class="route-terminal"/> <span>Brighton Ave</span>
+        </div>
     </div>
 </section>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
